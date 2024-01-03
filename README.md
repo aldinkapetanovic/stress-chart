@@ -1,3 +1,5 @@
+helm package --destination charts .
+
 helm repo index --url https://aldinkapetanovic.github.io/stress-chart .
 
 helm repo index --url https://aldinkapetanovic.github.io/stress-chart --merge index.yaml .
